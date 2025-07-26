@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="647.72" height="125.06" viewBox="0 0 647.72 125.06">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31" data-name="Rectangle 31" width="647.72" height="50.459" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_207" data-name="Group 207" transform="translate(-636.14 -434.527)">
+    <g id="Group_99" data-name="Group 99" transform="translate(636.14 434.527)">
+      <g id="Group_98" data-name="Group 98" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_69" data-name="Path 69" d="M46.214,49.962l-12.6-13.827H14.993V28.463H35.739c6.229,0,9.519-3.559,9.519-10S41.7,8.882,35.739,8.882H8.627v41.08H0V.185H35.739C47.1.185,53.815,7.237,53.815,18.331c0,8.214-3.836,14.038-10.268,16.5L58.54,49.962Z" transform="translate(0 0.499)" fill="#fff"/>
+        <path id="Path_70" data-name="Path 70" d="M33.923,49.962V.185H78.355v8.7H42.55V41.265H78.425v8.7ZM48.916,21H76.508v7.321H48.916Z" transform="translate(91.194 0.499)" fill="#fff"/>
+        <path id="Path_71" data-name="Path 71" d="M79.916,36.131V27.707H99.91c6.093,0,9.719-3.832,9.719-9.446,0-5.754-3.626-9.379-9.719-9.379H73.551V49.958H64.92V.185H99.91c11.5,0,18.209,6.915,18.209,17.8,0,10.748-6.709,18.146-18.209,18.146Z" transform="translate(174.522 0.499)" fill="#fff"/>
+        <path id="Path_72" data-name="Path 72" d="M97.756,49.961V.185h8.7v41.08h33.478v8.7Z" transform="translate(262.794 0.498)" fill="#fff"/>
+        <path id="Path_73" data-name="Path 73" d="M182.253,50.459,174.792,37.93H151.239l4.109-7.052h15.269L159.522,12.252,136.928,50.459H127L155.62,2.807C156.646,1.1,157.947,0,159.865,0s3.15,1.1,4.179,2.807l28.687,47.652Z" transform="translate(341.417 0.001)" fill="#fff"/>
+        <path id="Path_74" data-name="Path 74" d="M185.337,49.961v-18.9L158.911.185h11.71L190,23.122,209.436.185H220.53l-26.5,30.878v18.9Z" transform="translate(427.192 0.498)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Past_present_play_on" data-name="Past | present | play on" transform="translate(753.14 554.587)" fill="#10b5a6" font-size="18" font-family="Noway-Medium, Noway" font-weight="500" letter-spacing="0.5em"><tspan x="0" y="0">PAST | PRESENT | PLAY ON</tspan></text>
+  </g>
+</svg>

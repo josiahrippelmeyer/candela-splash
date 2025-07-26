@@ -1,6 +1,63 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const noway = localFont({
+  src: [
+    {
+      path: '../public/fonts/Noway-Thin.otf',
+      weight: '100',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Noway_Thin_Italic.otf',
+      weight: '100',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/Noway-Light.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Noway_Light_Italic.otf',
+      weight: '300',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/Noway-Regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Noway_Regular_Italic.otf',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/Noway-Medium.otf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Noway_Medium_Italic.otf',
+      weight: '500',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/Noway-Bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Noway_Bold_Italic.otf',
+      weight: '700',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-noway'
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${noway.variable} antialiased`}
       >
         {children}
       </body>
