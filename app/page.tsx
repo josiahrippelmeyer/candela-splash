@@ -56,19 +56,19 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div className="relative min-h-screen w-full">
       {/* Background Gradient */}
       <Image
         src="/background.jpg"
         alt="Background"
         fill
         priority
-        className="object-cover"
+        className="object-cover fixed"
         quality={100}
       />
 
       {/* Background Video with Opacity */}
-      <div className="absolute inset-0 z-[1] bg-black/20">
+      <div className="fixed inset-0 z-[1] bg-black/20">
         <video
           ref={videoRef}
           autoPlay
@@ -146,15 +146,15 @@ export default function Home() {
       {/* Main Content */}
       <main className="relative z-10 flex flex-col min-h-screen px-4 py-8 md:py-12">
         {/* Content Wrapper */}
-        <div className="flex-1 flex flex-col items-center justify-start pt-4 md:justify-center md:pt-0">
+        <div className="flex-1 flex flex-col items-center justify-start pt-6 md:justify-center md:pt-0">
           {/* Logo */}
           <div className="flex flex-col items-center mb-8 md:mb-16">
             <Image
               src="/Replay_Icon.svg"
               alt="Replay Logo"
-              width={100}
-              height={100}
-              className="w-[100px] h-[100px] md:w-[200px] md:h-[200px] mb-4 md:mb-6"
+              width={130}
+              height={130}
+              className="w-[130px] h-[130px] md:w-[200px] md:h-[200px] mb-4 md:mb-6"
             />
             <Image
               src="/Replay_Wordmark.svg"
@@ -210,7 +210,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className="flex-shrink-0 text-center">
+        <div className="flex-shrink-0 text-center pb-4">
           <p className="text-xs text-[#00FF7F] tracking-[0.2em] italic">
             POWERED BY GAME X CHANGE
           </p>
