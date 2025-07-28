@@ -144,7 +144,7 @@ export default function Home() {
       )}
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col min-h-screen px-4 py-8 md:py-12">
+      <main className="relative z-10 flex flex-col min-h-[100dvh] md:min-h-screen px-4 py-8 md:py-12">
         {/* Content Wrapper */}
         <div className="flex-1 flex flex-col items-center justify-start pt-6 md:justify-center md:pt-0">
           {/* Logo */}
