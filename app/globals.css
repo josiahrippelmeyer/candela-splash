@@ -32,7 +32,7 @@ body {
   max-width: 800px;
 }
 
-.login-button {
+.submit-button {
   background: transparent;
   border: 1px solid var(--accent);
   color: var(--accent);
@@ -45,13 +45,13 @@ body {
 }
 
 @media (min-width: 768px) {
-  .login-button {
+  .submit-button {
     padding: 8px 24px;
     font-size: 14px;
   }
 }
 
-.login-button:hover {
+.submit-button:hover {
   background: var(--accent);
   color: var(--background);
   transform: translateY(-1px);

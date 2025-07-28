@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [showLoginModal, setShowLoginModal] = useState(false);
   const [email, setEmail] = useState("");
   const [submitStatus, setSubmitStatus] = useState<{
     type: "success" | "error" | null;
@@ -92,57 +91,6 @@ export default function Home() {
         <p className="vertical-text text-[#00FF7F] tracking-[0.2em] text-sm">COMING SOON</p>
       </div>
 
-      {/* Login Button */}
-      <div className="absolute top-8 right-8 z-30 italic">
-        <button className="login-button" onClick={() => setShowLoginModal(true)}>
-          LOGIN
-        </button>
-      </div>
-
-      {/* Login Modal */}
-      {showLoginModal && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="relative bg-[#192A25]/90 p-12 rounded-lg w-full max-w-md backdrop-blur-sm">
-            {/* Close Button */}
-            <button
-              onClick={() => setShowLoginModal(false)}
-              className="absolute top-4 right-4 text-[#00ED64] hover:text-white transition-colors"
-            >
-              ✕
-            </button>
-
-            {/* Login Form */}
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-              <div className="space-y-2">
-                  <label className="block text-[#00ED64] text-xs tracking-[0.2em] italic">
-                  USER ID
-                </label>
-                <input
-                  type="text"
-                  className="w-full bg-[#BEBFBF] border border-white/10 rounded-full px-4 py-1.5 md:px-6 md:py-2 text-sm md:text-base text-[#192A25] placeholder-[#192A25]/50 outline-none focus:border-[#00ED64] transition-colors"
-                  placeholder="Enter Username"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <label className="block text-[#00ED64] text-xs tracking-[0.2em] italic">
-                  PASSWORD
-                </label>
-                <input
-                  type="password"
-                  className="w-full bg-[#BEBFBF] border border-white/10 rounded-full px-4 py-1.5 md:px-6 md:py-2 text-sm md:text-base text-[#192A25] placeholder-[#192A25]/50 outline-none focus:border-[#00ED64] transition-colors"
-                  placeholder="Enter Password"
-                />
-              </div>
-
-              <button className="login-button w-full mt-8">
-                SUBMIT
-              </button>
-            </form>
-          </div>
-        </div>
-      )}
-
       {/* Main Content */}
       <main className="relative z-10 flex flex-col min-h-[100dvh] md:min-h-screen px-4 py-8 md:py-12">
         {/* Content Wrapper */}
@@ -195,7 +143,7 @@ export default function Home() {
                 className="flex-1 bg-[#BEBFBF] border border-white/10 rounded-full px-4 py-1.5 md:px-6 md:py-2 text-sm md:text-base text-[#192A25] placeholder-[#192A25]/50 outline-none focus:border-[#00ED64] transition-colors"
                 required
               />
-              <button type="submit" className="login-button">
+              <button type="submit" className="submit-button">
                 SUBMIT
               </button>
             </form>
