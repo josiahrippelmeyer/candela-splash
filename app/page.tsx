@@ -146,7 +146,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="relative z-10 flex flex-col min-h-screen px-4 py-8 md:py-12">
         {/* Content Wrapper */}
-        <div className="flex-1 flex flex-col items-center justify-center">
+        <div className="flex-1 flex flex-col items-center justify-start pt-4 md:justify-center md:pt-0">
           {/* Logo */}
           <div className="flex flex-col items-center mb-8 md:mb-16">
             <Image
@@ -185,7 +185,7 @@ export default function Home() {
           </div>
 
           {/* Email Form */}
-          <div className="flex flex-col items-center w-full max-w-md">
+          <div className="flex flex-col items-center w-full max-w-md mb-8">
             <form onSubmit={handleEmailSubmit} className="flex gap-4 w-full">
               <input
                 type="email"
@@ -210,7 +210,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className="mt-8 text-center">
+        <div className="flex-shrink-0 text-center">
           <p className="text-xs text-[#00FF7F] tracking-[0.2em] italic">
             POWERED BY GAME X CHANGE
           </p>
