@@ -117,7 +117,7 @@ export default function Home() {
           <div className="text-center mb-12 md:mb-16 w-full max-w-3xl">
             <p className="text-xs tracking-[0.2em] mb-2">CURRENT SITE STATUS:</p>
             <div className="progress-bar mx-auto mb-1"></div>
-            <p className="text-right text-xs text-[#00FF7F]">35% COMPLETE</p>
+            <p className="text-right text-xs text-[#00FF7F]">90% COMPLETE</p>
           </div>
 
           {/* Description */}
